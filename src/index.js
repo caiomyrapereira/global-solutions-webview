@@ -23,12 +23,12 @@ root.render(
   <React.StrictMode>
     <BrowserRouter className="App">
       <Routes>
-        <Route path="/home/inicio" element={<Inicio />} />
-        <Route path="/home/forum" element={<Forum />} />
-        <Route path="/home/monitorar" element={<Monitorar />} />
-        <Route path="/home/painel" element={<Painel />} />
-        <Route path="/home/perfil" element={<Perfil />} />
-        <Route path="/home/relatorios" element={<Relatorios />} />
+        <Route path="/menu/inicio" element={<Inicio />} />
+        <Route path="/menu/forum" element={<Forum />} />
+        <Route path="/menu/monitorar" element={<Monitorar />} />
+        <Route path="/menu/painel" element={<Painel />} />
+        <Route path="/menu/perfil" element={<Perfil />} />
+        <Route path="/menu/relatorios" element={<Relatorios />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
