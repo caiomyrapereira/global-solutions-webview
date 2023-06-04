@@ -1,3 +1,5 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.js'
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
@@ -13,6 +15,7 @@ import Monitorar from './pages/monitorar/Monitorar';
 import Painel from './pages/painel/Painel';
 import Perfil from './pages/perfil/Perfil';
 import Relatorios from './pages/relatorios/Relatorios';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

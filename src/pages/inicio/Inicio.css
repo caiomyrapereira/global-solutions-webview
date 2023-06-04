@@ -1,0 +1,76 @@
+h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 5px;
+    /* identical to box height, or 170% */
+
+    letter-spacing: -0.02em;
+
+    color: #489673;
+}
+
+h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height, or 156% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+
+    /* Fonte */
+
+    color: #202020;
+}
+
+h3{
+    font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 25px;
+/* identical to box height, or 179% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.01em;
+
+/* Fonte */
+
+color: #202020;
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    /* or 192% */
+
+    letter-spacing: -0.02em;
+
+    /* Fonte */
+
+    color: #202020;
+
+    opacity: 0.8;
+}
+
+.icone-previsao{
+    width: 44px;
+    height: 50px;
+}
+
+.card-previssao p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 12px;
+    /* identical to box height, or 96% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+}
