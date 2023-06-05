@@ -1,0 +1,57 @@
+.marcado {
+    padding: 3px 20px;
+    border-radius: 40px;
+    color: #FFFFFF;
+}
+
+.green {
+    background: #357156;
+}
+
+.marrow {
+    background: #C18A52;
+}
+
+.estoque .quantidade {
+    width: 95px;
+    height: 36px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+}
+
+.estoque .regiao {
+    width: 111px;
+    height: 36px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    /* or 138% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+
+    /* Fonte */
+
+    color: #202020;
+
+    opacity: 0.8;
+}
+
+.estoque a {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height, or 138% */
+    letter-spacing: -0.01em;
+    color: #000000;
+    cursor: pointer;
+
+}
