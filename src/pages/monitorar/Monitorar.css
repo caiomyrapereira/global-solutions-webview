@@ -1,0 +1,26 @@
+.apis {
+    list-style-type: none;
+
+}
+
+.apis li a {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 34px;
+    /* or 262% */
+    color: #000000;
+
+}
+
+.monitoramento li {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 15px;
+    /* or 136% */
+
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
