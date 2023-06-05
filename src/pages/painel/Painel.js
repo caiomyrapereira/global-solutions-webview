@@ -32,7 +32,7 @@ function Painel() {
       </section>
 
       <section className='mb-4'>
-        <div className='d-flex  justify-content-between'>
+        <div className='d-flex  justify-content-between align-items-center'>
           <h2 className='mb-3'>Alertas</h2>
           <img src={Notificacao} alt='logo' />
         </div>
