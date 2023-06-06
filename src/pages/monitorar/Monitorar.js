@@ -70,6 +70,8 @@ function Monitorar() {
   const navigate = useNavigate();
   const click = function(){
     console.log('console')
+    var rota = '/menu/monitorar';
+    localStorage.setItem('rota', rota);
     navigate('/menu/chatbox');
   };
 

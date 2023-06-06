@@ -9,6 +9,8 @@ function Painel() {
   const navigate = useNavigate();
   const click = function(){
     console.log('console')
+    var rota = '/menu/painel';
+    localStorage.setItem('rota', rota);
     navigate('/menu/chatbox');
   };
 

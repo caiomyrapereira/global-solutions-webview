@@ -18,6 +18,8 @@ function Forum() {
   const navigate = useNavigate();
   const click = function(){
     console.log('console')
+    var rota = '/menu/forum';
+    localStorage.setItem('rota', rota);
     navigate('/menu/chatbox');
   };
 

@@ -15,13 +15,15 @@ function Inicio() {
   const navigate = useNavigate();
   const click = function(){
     console.log('console')
+    var rota = '/menu/inicio';
+    localStorage.setItem('rota', rota);
     navigate('/menu/chatbox');
   };
   return (
     <div className="App">
       <img className='robot' src={Robot} alt='logo' onClick={click} />
       <h1>Bem vinda, Ana!</h1>
-      <p>Confira as últimas estatísticas e indicadores.</p>F
+      <p>Confira as últimas estatísticas e indicadores.</p>
       <div className='w-100 mb-4'>
         <img src={Group01} className='w-100' alt='logo' />
       </div>

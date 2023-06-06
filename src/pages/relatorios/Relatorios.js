@@ -14,6 +14,8 @@ function Relatorios() {
   const navigate = useNavigate();
   const click = function(){
     console.log('console')
+    var rota = '/menu/relatorios';
+    localStorage.setItem('rota', rota);
     navigate('/menu/chatbox');
   };
 
