@@ -24,3 +24,20 @@
 
     color: #000000;
 }
+
+.green {
+    color: #489673;
+}
+
+.orange {
+    color: #C18A52;
+}
+
+small {
+    font-size: 10px;
+    line-height: 15px;
+    /* or 136% */
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
