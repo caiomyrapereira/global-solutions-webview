@@ -1,6 +1,6 @@
-import './Perfil.css';
+import './ChatBox.css';
 
-function Perfil() {
+function ChatBox() {
   return (
     <div className="App">
       <p>Perfil</p>
@@ -8,4 +8,4 @@ function Perfil() {
   );
 }
 
-export default Perfil;
+export default ChatBox;

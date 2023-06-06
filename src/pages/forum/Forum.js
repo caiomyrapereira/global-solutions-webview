@@ -11,10 +11,20 @@ import Friends from '../../fontes/frieds.svg';
 import Group01 from '../../fontes/group01.svg';
 import Group02 from '../../fontes/group02.svg';
 import Amigos from '../../fontes/amigos.svg'
+import Robot from '../../fontes/robot.svg';
+import {Routes, Route, useNavigate} from 'react-router-dom';
 
 function Forum() {
+  const navigate = useNavigate();
+  const click = function(){
+    console.log('console')
+    navigate('/menu/chatbox');
+  };
+
   return (
     <div className="App">
+      <img className='robot' src={Robot} alt='logo' onClick={click} />
+      
       <section className='mb-5' >
         <div className='d-flex justify-content-between mb-4'>
           <h1 className='m-0 lh-1'>Forum</h1>
@@ -116,6 +126,9 @@ function Forum() {
 
 
   );
+  
 }
+
+
 
 export default Forum;

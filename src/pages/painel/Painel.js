@@ -2,10 +2,20 @@ import './Painel.css';
 import Alertas from '../../fontes/alertas.svg';
 import Producao from '../../fontes/producao.svg';
 import Notificacao from '../../fontes/notificacao.svg';
+import Robot from '../../fontes/robot.svg';
+import {Routes, Route, useNavigate} from 'react-router-dom';
 
 function Painel() {
+  const navigate = useNavigate();
+  const click = function(){
+    console.log('console')
+    navigate('/menu/chatbox');
+  };
+
+
   return (
     <div className="App">
+       <img className='robot' src={Robot} alt='logo'  onClick={click} />
       <h1 className='mb-5'>Painel de controle</h1>
       <section className='mb-4'>
         <h2>Produção de culturas</h2>

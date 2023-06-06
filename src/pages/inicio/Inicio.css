@@ -74,3 +74,17 @@ p {
     align-items: center;
     letter-spacing: -0.01em;
 }
+
+.robot{
+    position: fixed;
+    right: 25px;
+    top: 500px;
+}
+
+.orie{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+}

@@ -2,7 +2,9 @@ import './Monitorar.css';
 import Monitoramento from '../../fontes/monitoramente.svg';
 import React, { useState, useEffect } from 'react';
 import Chart from 'chart.js/auto';
+import Robot from '../../fontes/robot.svg'
 import { getRelativePosition } from 'chart.js/helpers';
+import {Routes, Route, useNavigate} from 'react-router-dom';
 
 function Monitorar() {
   const [data, setData] = useState([]);
@@ -65,8 +67,15 @@ function Monitorar() {
     getLocal(input.current.value);
   }
 
+  const navigate = useNavigate();
+  const click = function(){
+    console.log('console')
+    navigate('/menu/chatbox');
+  };
+
   return (
     <section className='App'>
+      <img className='robot' src={Robot} alt='logo' onClick={click} />
       <h1 className='mb-5'>Monitoramento em tempo real</h1>
 
       <h3>Últimos 5 desastres monitorados pelo Earth Observatory Natural Event Tracker (EONET)</h3>

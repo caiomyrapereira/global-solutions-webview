@@ -7,11 +7,19 @@ import Rotacao from '../../fontes/Rotacao.svg';
 import Agroecologia from '../../fontes/Agroecologia.svg'
 import Reducao from '../../fontes/reducao.svg'
 import Uso from '../../fontes/uso.svg'
+import Robot from '../../fontes/robot.svg'
+import {Routes, Route, useNavigate} from 'react-router-dom';
 
 function Relatorios() {
+  const navigate = useNavigate();
+  const click = function(){
+    console.log('console')
+    navigate('/menu/chatbox');
+  };
+
   return (
     <div className="App">
-
+       <img className='robot' src={Robot} alt='logo'  onClick={click} />
       <h1 className='mb-5'>Relatórios e análises</h1>
 
       <section className='mb-5'>

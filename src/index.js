@@ -13,7 +13,7 @@ import Inicio from './pages/inicio/Inicio';
 import Forum from './pages/forum/Forum';
 import Monitorar from './pages/monitorar/Monitorar';
 import Painel from './pages/painel/Painel';
-import Perfil from './pages/perfil/Perfil';
+import ChatBox from './pages/chatBox/ChatBox';
 import Relatorios from './pages/relatorios/Relatorios';
 
 
@@ -27,7 +27,7 @@ root.render(
         <Route path="/menu/forum" element={<Forum />} />
         <Route path="/menu/monitorar" element={<Monitorar />} />
         <Route path="/menu/painel" element={<Painel />} />
-        <Route path="/menu/perfil" element={<Perfil />} />
+        <Route path="/menu/chatBox" element={<ChatBox />} />
         <Route path="/menu/relatorios" element={<Relatorios />} />
       </Routes>
     </BrowserRouter>

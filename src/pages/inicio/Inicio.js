@@ -9,13 +9,19 @@ import Manejo from '../../fontes/manejo.svg';
 import Controle from '../../fontes/controle.svg';
 import Recursos from '../../fontes/recursos.svg';
 import Robot from '../../fontes/robot.svg';
-
+import {Routes, Route, useNavigate} from 'react-router-dom';
 
 function Inicio() {
+  const navigate = useNavigate();
+  const click = function(){
+    console.log('console')
+    navigate('/menu/chatbox');
+  };
   return (
     <div className="App">
+      <img className='robot' src={Robot} alt='logo' onClick={click} />
       <h1>Bem vinda, Ana!</h1>
-      <p>Confira as últimas estatísticas e indicadores.</p>
+      <p>Confira as últimas estatísticas e indicadores.</p>F
       <div className='w-100 mb-4'>
         <img src={Group01} className='w-100' alt='logo' />
       </div>
@@ -25,9 +31,9 @@ function Inicio() {
       </div>
 
       <h2>Previsões de safras e alertas</h2>
-      <div>
+      <div className='mb-5'>
         <div className='d-flex card-previssao'>
-          <img src={Grafic} className='icone-previsao me-3 align-self-center'  alt='logo' />
+          <img src={Grafic} className='icone-previsao me-3 align-self-center' alt='logo' />
           <div className='d-flex flex-column align-self-center'>
             <h3 className='mb-0'> Previsões climáticas</h3>
             <p className='mb-0'>Informações precisas sobre o clima</p>
@@ -43,8 +49,7 @@ function Inicio() {
       </div>
 
       <div className='d-flex justify-content-between mb-3'>
-        <h2 className='d-flex align-items-end'>Recomendações e orientações</h2>
-        <img src={Robot} alt='logo' />
+        <h2 className='d-flex align-items-end orie'>Recomendações e orientações</h2>
       </div>
 
       <div className='rom '>
