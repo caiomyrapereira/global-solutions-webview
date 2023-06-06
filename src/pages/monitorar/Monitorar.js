@@ -1,14 +1,11 @@
 import './Monitorar.css';
-import Monitoramento from '../../fontes/monitoramente.svg';
 import React, { useState, useEffect } from 'react';
 import Chart from 'chart.js/auto';
 import Robot from '../../fontes/robot.svg'
-import { getRelativePosition } from 'chart.js/helpers';
 import {Routes, Route, useNavigate} from 'react-router-dom';
 
 function Monitorar() {
   const [data, setData] = useState([]);
-  const [weather, setWeather] = useState([]);
   const canvas = React.useRef(null);
   const input = React.useRef(null);
   let myChart;
