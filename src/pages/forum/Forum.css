@@ -1,0 +1,126 @@
+.user {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    height: 82px;
+}
+
+.user-image {
+    width: 60px;
+    height: 60px;
+}
+
+.user-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    /* identical to box height, or 192% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+}
+
+.user-nome {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height, or 227% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.49);
+}
+
+.user-profiss {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height, or 250% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.user-coracao {
+    width: 28px;
+    height: 28px;
+}
+
+.user-data {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 25px;
+    /* identical to box height, or 250% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+
+    color: rgba(0, 0, 0, 0.25);
+
+}
+
+.seeMore {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 25px;
+    /* identical to box height, or 208% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+
+    color: #212121;
+
+}
+
+.group {
+    width: 20px;
+    height: 20px;
+}
+
+.you-group {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+    /* identical to box height, or 100% */
+
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+.noti {
+    width: 20px;
+    height: 20px;
+    color: #FFFFFF;
+    background: #59A903;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.btn {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 25px;
+    /* identical to box height, or 208% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+}
